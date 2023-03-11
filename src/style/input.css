@@ -1,0 +1,27 @@
+.input{
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.input-disiable{
+    background-color: #f5f5f5;
+}
+.input-disiable:focus{
+    outline:none;
+    border: 1px solid #ccc !important;
+}
+
+.input-focus:focus, .input-focus:hover{
+    outline: none;
+    border-color: #3395FF;
+}
+
+.input-number{
+    text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input[type=number] {
+    -webkit-appearance: none;
+}

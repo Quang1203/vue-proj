@@ -1,0 +1,93 @@
+.icon-24{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+}
+
+
+/* MENU */
+.icon-overview{
+    background: url("../assets/icon/qlts-icon.png") -20px -152px;
+}
+.menu-item:hover .icon-overview, .menu-item-container.router-link-active .icon-overview {
+    background: url("../assets/icon/qlts-icon.png") -20px -197px;
+}
+
+.icon-asset{
+    background: url("../assets/icon/qlts-icon.png") -65px -153px;
+}
+.menu-item:hover .icon-asset, .menu-item-container.router-link-active .icon-asset{
+    background: url("../assets/icon/qlts-icon.png") -65px -197px;
+}
+
+.icon-asset-HT-ĐB{
+    background: url("../assets/icon/qlts-icon.png") -110px -153px;
+}
+.menu-item:hover .icon-asset-HT-ĐB, .menu-item-container.router-link-active .icon-asset-HT-ĐB{
+    background: url("../assets/icon/qlts-icon.png") -110px -197px;
+}
+
+.icon-tools{
+    background: url("../assets/icon/qlts-icon.png") -153px -153px;
+}
+.menu-item:hover .icon-tools, .menu-item-container.router-link-active .icon-tools{
+    background: url("../assets/icon/qlts-icon.png") -153px -197px;
+}
+
+.icon-category{
+    background: url("../assets/icon/qlts-icon.png") -196px -152px;
+}
+.menu-item:hover .icon-category, .menu-item-container.router-link-active .icon-category{
+    background: url("../assets/icon/qlts-icon.png") -196px -197px;
+}
+
+.icon-search{
+    background: url("../assets/icon/qlts-icon.png") -241px -153px;
+}
+.menu-item:hover .icon-search, .menu-item-container.router-link-active .icon-search{
+    background: url("../assets/icon/qlts-icon.png") -241px -197px;
+}
+
+.icon-report{
+    background: url("../assets/icon/qlts-icon.png") -329px -152px;
+}
+.menu-item:hover .icon-report, .menu-item-container.router-link-active .icon-report{
+    background: url("../assets/icon/qlts-icon.png") -329px -197px;
+}
+
+.menu-item .menu-icon-down{
+    background: url("../assets/icon/qlts-icon.svg") -151px -284px !important;
+}
+
+.icon-down{
+    background: url("../assets/icon/qlts-icon.png") -153px -285px;
+}
+
+.icon-toogle{
+    /* background: url("../assets/icon/qlts-icon.png") -206px -292px; */
+}
+
+
+/* HEADER */
+.icon-notify{
+    background: url("../assets/icon/qlts-icon.svg") -329px -108px;
+}
+.icon-square{
+    background: url("../assets/icon/qlts-icon.svg") -197px -21px;
+}
+.icon-ask{
+    background: url("../assets/icon/qlts-icon.svg") -65px -65px;
+}
+.icon-avatar{
+    background: url("../assets/icon/qlts-icon.svg") -21px -21px;
+}
+
+/* COMMON */
+.icon-down{
+    width: 7px;
+    height: 5px;
+    background: url("../assets/icon/qlts-icon.svg") -205px -343px;
+    cursor: pointer;
+    margin-right: 12px;
+}

@@ -1,0 +1,138 @@
+@import url("./button.css");
+@import url("./icon.css");
+@import url("./input.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #121212;
+  font-family: Roboto;
+  font-size: 13px;
+}
+:focus {
+  outline: 1px solid #3395FF; 
+}
+
+@font-face {
+  font-family: Roboto;
+  /* src: url("../assets/Fonts/Roboto-Regular.77b210bc.woff2"); */
+  src: url("../assets/html/font/Roboto-Regular.ttf");
+
+
+}
+
+@font-face {
+  font-family: Roboto Bold;
+  src: url("../assets/html/font/Roboto-Bold.ttf");
+}
+
+@media screen and (max-width: 700px) {
+  .menu-container{
+    width: 66px !important;
+    min-width: 66px !important;
+  }
+  .menu__top__text, .menu-item__text, .menu-icon-down  {
+    display: none;
+  }
+}
+
+/* @media (max-width: 700px) {
+  .menu-container{
+    background-color: #fff !important;
+  }
+} */
+
+.el-input {
+  --el-input-text-color: var(--el-text-color-regular);
+  --el-input-border: var(--el-border);
+  --el-input-hover-border: var(--el-border-color-hover);
+  --el-input-focus-border: var(--el-color-primary);
+  --el-input-transparent-border: 0 0 0 1px transparent inset;
+  --el-input-border-color: var(--el-border-color);
+  --el-input-border-radius: var(--el-border-radius-base);
+  --el-input-bg-color: var(--el-fill-color-blank);
+  --el-input-icon-color: var(--el-text-color-placeholder);
+  --el-input-placeholder-color: var(--el-text-color-placeholder);
+  --el-input-hover-border-color: var(--el-border-color-hover);
+  --el-input-clear-hover-color: var(--el-text-color-secondary);
+  --el-input-focus-border-color: #3395FF;
+}
+.demo-date-picker div.el-input.el-input--prefix{
+  height: 100%;
+}
+.el-input__wrapper{
+  display: flex ;
+  flex-direction: row-reverse ;
+  padding: 0 10px 0 14px;
+  box-shadow: unset;
+  border: 1px solid #ccc;
+  
+}
+.demo-date-picker.border-red-required .el-input__wrapper{
+  border: 1px solid red;
+}
+.demo-date-picker.border-red-required .el-input{
+  --el-input-focus-border-color: red  !important;
+  /* border: 1px solid red; */
+}
+input.el-input__inner{
+  height: 36px;
+  color: #121212;
+}
+
+.el-input__suffix-inner .clear-icon{
+  display: none;
+}
+.el-icon.el-input__icon svg {
+  display: none;
+}
+.el-input__prefix{
+  background: url("../assets/icon/qlts-icon.svg") -284px -64px;
+  width: 24px;
+  height: 24px;
+
+}
+::placeholder {
+  font-style: italic;
+}
+
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+  padding: 0 0 0 16px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.border-red{
+  border: 1px solid red;
+}
+.focus {
+  border: 1px solid #2979ff;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  border-radius: 4px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 2;
+}
